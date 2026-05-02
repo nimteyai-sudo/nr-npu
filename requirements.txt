@@ -1,0 +1,7 @@
+numpy
+rknn-toolkit-lite2>=2.3.0
+
+# Model building and training (optional)
+# torch
+# onnx
+# onnxoptimizer
