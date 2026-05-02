@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.onnx
+*.npy
+calib_*/
+calib_*.txt
+phase2_results.json
+energy_results.json
+results/
+models/mnist_raw/
+models/snn_layer1.onnx
+models/snn_layer2.onnx
+.DS_Store
+*.swp
