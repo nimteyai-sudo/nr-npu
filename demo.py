@@ -8,10 +8,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "src
 import numpy as np
 import time
 from pathlib import Path
-from rknnlite.api import RKNNLite
-
 from spike_encoder import encode_image_pixels, encode_spikes
-from lif_neuron import LIFNeuron
 from snn_executor import SNNLayer, SNNExecutor
 
 MODEL_DIR = Path(__file__).parent / "models"
