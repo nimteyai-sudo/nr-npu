@@ -77,7 +77,7 @@ nrnpu/
 ## Quick start
 
 ```bash
-git clone https://github.com/yourname/nr-npu
+git clone https://github.com/nimteyai-sudo/nr-npu
 cd nr-npu
 python test_mvp.py --timesteps 5 --threshold 1.0
 ```
