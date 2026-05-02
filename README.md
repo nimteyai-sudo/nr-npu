@@ -41,7 +41,7 @@ Because RKNN runtime doesn’t expose LIF. But CPU update takes <0.1 ms per time
 - **Multi‑core parallelism for a single model?**  
   RKNN serializes inference calls even with different core masks. Threading doesn’t help.  
   I got **0.16× speedup** (i.e., slower). Don’t waste time.  
-  *But* three independent models on three cores work great – see Discovery 1 in my research.
+  *But* three independent models on three cores work great.
 
 - **INT8 LIF gives zero gain**  
   NPU already dequantizes outputs to float32. Converting back to int doesn’t help.  
